@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DetailActivity">
+
+    <ImageView
+        android:id="@+id/imgMusic"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@android:color/darker_gray"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp">
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            tools:text="@string/music_name"/>
+
+        <TextView
+            android:id="@+id/tvSource"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            tools:text="@string/music_source"/>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical">
+
+           <TextView
+               android:id="@+id/tvDetail"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:textColor="@color/black"
+               android:lineSpacingExtra="10dp"
+               tools:text="@string/music_detail"/>
+
+       </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Musik Tradisional</string>
+    <string name="about_name">Andrew Febrianto Gunawan</string>
+    <string name="email">andr3w.febrianto@gmail.com</string>
+    <string name="about">About</string>
+    <string name="music_name">Nama alat musik</string>
+    <string name="music_source">Asal alat musik</string>
+    <string name="music_detail">Detail Music</string>
+</resources>
